@@ -1,0 +1,85 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@font-face{
+    font-family: 'Segoe UI';
+    src:url('Segoe UI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    font-family: var(--fonte_sans-serif);
+    margin: 0px;
+    padding: 0px;
+    transition-duration: 0.4s;
+}
+html, body{
+    min-height: 100vh;
+}
+
+:root{
+    --fonte_redondinha: 'Passion One', 'Papyrus';
+    --fonte_sans-serif: 'Segoe UI', sans-serif;
+    --fonte_da_poesia: 'Patrick Hand', 'Comic Sans MS';
+}
+header{
+    text-align: center;
+    color: white;
+    background-color: black;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+}
+header > p{
+    padding-bottom: 50px;
+}
+header > h1{
+    padding-top: 50px;
+    
+}
+h1{
+    font: bold 3em 'Passion One';
+    margin: 0px;
+    font-variant: small-caps;
+}
+header a:hover{
+    color: rgb(255, 145, 0);    
+}
+:hover.keert_github{
+    color: rgb(40, 255, 58);
+}
+:hover.cursoemvideo_link{
+    color: blue;
+}
+h1:hover{
+    color: antiquewhite;
+}
+section p{
+    font: normal 1em var(--fonte_da_poesia);
+    padding-top: 10vh;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+    line-height: 2em;
+}
+section.normal{
+    background-color: antiquewhite;
+    color: black;
+}
+section.imagem{
+    background-color: rgb(21, 0, 39);
+    color: white;
+}
+section.imagem > p{
+    width: 500px;
+    background-color: rgb(255, 118, 118);
+       
+}
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 1px;
+}
